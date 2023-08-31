@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color:hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Product{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 600px;
+   background-color:white;
+   border-radius: 10px;
+   
+
+}
+#Product img{
+    width: 50%;
+    height: 100%;
+    border-radius: 10px 0px 0px 10px;
+}
+#product-description{
+    width: 50%;
+    height: 100%;
+    border-radius: 0px 10px 10px 0px;
+    padding: 30px;
+}
+h2{
+    font-family: monospace;
+    font-weight: 1;
+    word-spacing: 20px;
+    opacity: 50%;
+    letter-spacing: 5px;
+    font-size: 15px;
+}
+h1{
+    font-weight: 1000;
+    margin-top: 25px;
+}
+h5{
+    opacity: 60%;
+    margin-top: 25px;
+    line-height: 20px;
+}
+
+#price{
+    width: 70%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+#offerprice{
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    color: hsl(158, 36%, 37%);
+}
+#actualprice{
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    opacity: 60%;
+}
+button{
+    padding: 0 60px;
+    font-family: monospace;
+    width: 100%;
+    height: 40px;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 25px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
